@@ -16,7 +16,8 @@ namespace ngEs6App
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            JwtConfig.RegisterComponent();
+            //JwtConfig.RegisterComponent();
+            UnityConfig.RegisterComponents();
         }
     }
 }
