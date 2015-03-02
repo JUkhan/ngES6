@@ -209,10 +209,10 @@ class BaseCtrl{
         }
     }
     showSpinner() {
-        jQuery(".jwt-spinner").show();
+        jQuery(".overlay").show();
     }
     hideSpinner() {
-        jQuery(".jwt-spinner").hide();
+        jQuery(".overlay").hide();
     }
     initFilter() {
         var scope=this;

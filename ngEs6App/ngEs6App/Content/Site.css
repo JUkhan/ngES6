@@ -48,7 +48,7 @@ input[type="checkbox"].input-validation-error {
   height: 100%;
   width: 100%;
   z-index: 1000;
-  xdisplay:none;
+  display:none;
   background-color: rgba(0,0,0,0.01);
 }
 .jwt-spinner {    
