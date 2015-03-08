@@ -1,12 +1,12 @@
+import mac from 'Scripts/Directives/mac/mac.js';
+import testProduct from 'Scripts/Directives/testProduct/testProduct.js';
 
-
-import JwtFilter from 'Scripts/Directives/JwtFilter.js';
 
 var moduleName='app.Directives';
 
-angular.module(moduleName,[])
-.directive('jwtFilter', JwtFilter.builder);
+angular.module(moduleName, [])
+.directive('mac', mac.builder)
+.directive('testProduct', testProduct.builder)
+;
 
 export default moduleName;
-
-

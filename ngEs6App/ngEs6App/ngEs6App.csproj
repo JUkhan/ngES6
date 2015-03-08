@@ -207,6 +207,7 @@
     <Content Include="Scripts\app.controllers.js" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\appStarter.js" />
+    <Content Include="Scripts\base\BaseSvc.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -241,7 +242,7 @@
     <Content Include="Content\font-awesome\scss\_variables.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\config.js" />
-    <Content Include="Scripts\Controllers\BaseCtrl.js" />
+    <Content Include="Scripts\base\BaseCtrl.js" />
     <Content Include="Scripts\Directives\JwtFilter.js" />
     <Content Include="Scripts\Filters\JwtDate.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -255,9 +256,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Services\BaseSvc.js" />
-    <Content Include="Scripts\Services\CourseSvc.js" />
-    <Content Include="Scripts\Services\EnrollmentSvc.js" />
-    <Content Include="Scripts\Services\StudentSvc.js" />
     <Content Include="Scripts\UI-Grid\csv.js" />
     <Content Include="Scripts\UI-Grid\pdfmake.js" />
     <Content Include="Scripts\UI-Grid\ui-grid-unstable.css" />

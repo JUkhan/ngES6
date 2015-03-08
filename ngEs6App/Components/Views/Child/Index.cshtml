@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<label>Component Name:</label><input type="text" id="comName" />
+<input type="button" value="Send Message From Child" onclick="sendMessage()" />
+<b>Message:</b>
+<p id="msg">
+
+</p>
+<script>
+    $(function () {
+        if (window.addEventListener) {
+            window.addEventListener("message", listener, false);
+        }else{
+            attachEvent('onMessage', listener);
+        }
+    });
+    function sendMessage() {
+        if ($('#comName').val()) {
+            var data = { id: 'jwt', comName: $('#comName').val() };
+            console.log(data);
+            window.parent.postMessage(data, '*');
+        }
+    }
+    function listener(event) {
+       
+        $('#msg').html(event.data);
+    }
+</script>
